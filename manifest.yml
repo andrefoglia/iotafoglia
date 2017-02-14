@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iotafoglia
+  host: iotafoglia
+  disk_quota: 1024M
+  services:
+  - iotafoglia-cloudantNoSQLDB
+  - iotafoglia-iotf-service
+  - AlchemyAPI-n6
